@@ -16,7 +16,7 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
 
       - name: Unpack project
         run: unzip -q Ink_and_Nine_Android_Project.zip -d project
